@@ -26,7 +26,7 @@ const Body = () =>{
    if(meme == "" ) return <Shimmer/>
 
     return(
-     <div className="flex flex-wrap gap-4">       
+     <div className="flex flex-wrap gap-4 mt-20">       
         {meme.memes.map((m , i) => 
             <MemeCard key={i} data={m}/>
         )} 
