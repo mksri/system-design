@@ -5,7 +5,7 @@ import { useState } from "react";
 
 const Auth = () =>{
 
-const [isAuth , setIsAuth] = useState(false);
+const [isAuth , setIsAuth] = useState(true);
 
  
 return(
