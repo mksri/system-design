@@ -18,11 +18,12 @@ const Header = () =>{
             <option value="hi">Hindi</option>
             <option value="sp">Spanish</option>
         </select>
-        <nav className="flex gap-4 ml-300 text-sm cursor-pointer"> 
+        <nav className="flex gap-4 ml-250 text-sm cursor-pointer"> 
             <Link to="/">Home</Link>
             <Link to="/about"> About </Link>
             <Link to="/login">Login </Link>
            <Link to="/accordian">Accordian</Link>
+           <Link to="/comment">Comment</Link>
         </nav>  
         </div>
     )

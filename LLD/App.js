@@ -7,6 +7,7 @@ import Body from "./src/components/Body";
 import ProtectedRoute from "./src/components/ProtectedRoute";
 import Login from "./src/components/Login";
 import Accordian from './src/components/Accordian';
+import CommentBox from './src/components/comments/CommentBox';
 
 
 const App = () =>{
@@ -22,6 +23,7 @@ const App = () =>{
     </Route>
     <Route path="/login" element={<Login/>}/>
     <Route path="/accordian" element={<Accordian/>}/>
+    <Route path="/comment" element={<CommentBox/>}/>
 </Routes>
 </BrowserRouter> 
     )
