@@ -24,6 +24,7 @@ const Header = () =>{
             <Link to="/login">Login </Link>
            <Link to="/accordian">Accordian</Link>
            <Link to="/comment">Comment</Link>
+           <Link to="/image-slider">Image</Link>
         </nav>  
         </div>
     )

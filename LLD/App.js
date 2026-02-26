@@ -8,6 +8,7 @@ import ProtectedRoute from "./src/components/ProtectedRoute";
 import Login from "./src/components/Login";
 import Accordian from './src/components/Accordian';
 import CommentBox from './src/components/comments/CommentBox';
+import ImageSlider from './src/components/image-slider/ImageSlider';
 
 
 const App = () =>{
@@ -24,6 +25,7 @@ const App = () =>{
     <Route path="/login" element={<Login/>}/>
     <Route path="/accordian" element={<Accordian/>}/>
     <Route path="/comment" element={<CommentBox/>}/>
+    <Route path="/image-slider" element={<ImageSlider/>}/>
 </Routes>
 </BrowserRouter> 
     )
