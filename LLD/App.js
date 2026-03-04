@@ -9,7 +9,8 @@ import Login from "./src/components/Login";
 import Accordian from './src/components/Accordian';
 import CommentBox from './src/components/comments/CommentBox';
 import ImageSlider from './src/components/image-slider/ImageSlider';
-
+import Pagination from './src/components/pagination/Pagination';
+import LiveChat from './src/components/live-chat/LiveChat';
 
 const App = () =>{
 
@@ -26,6 +27,8 @@ const App = () =>{
     <Route path="/accordian" element={<Accordian/>}/>
     <Route path="/comment" element={<CommentBox/>}/>
     <Route path="/image-slider" element={<ImageSlider/>}/>
+    <Route path="/pagination" element={<Pagination/>}/>
+    <Route path="/live-chat" element={<LiveChat/>}/>
 </Routes>
 </BrowserRouter> 
     )
