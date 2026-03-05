@@ -11,6 +11,8 @@ import CommentBox from './src/components/comments/CommentBox';
 import ImageSlider from './src/components/image-slider/ImageSlider';
 import Pagination from './src/components/pagination/Pagination';
 import LiveChat from './src/components/live-chat/LiveChat';
+import Search from './src/components/search-bar/Search';
+
 
 const App = () =>{
 
@@ -29,6 +31,7 @@ const App = () =>{
     <Route path="/image-slider" element={<ImageSlider/>}/>
     <Route path="/pagination" element={<Pagination/>}/>
     <Route path="/live-chat" element={<LiveChat/>}/>
+    <Route path="/search" element={<Search/>}/>
 </Routes>
 </BrowserRouter> 
     )

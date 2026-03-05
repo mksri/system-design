@@ -22,6 +22,7 @@ const Pagination = () =>{
         const data = await fetch(`https://dummyjson.com/products?limit=${itemsPerPage}`);
 
 
+        
         const json = await data.json();
         
         const pageCount = Math.ceil(json.total/itemsPerPage) ;
